@@ -12,17 +12,81 @@
     <p>You can write a paragraph here</p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is made in a way to maintain the area between the map. As such there is minimal stretch
+        until the further one goes away from the equator. <br> In which case the land masses seem to be compressed.
+    </h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
+
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is made around a stretched ellipsoid. Therfore allowing for the area and proportion
+        of the land to be displayed correctly,<br> while only having mild distortions around the edges
+    of the elliposid </h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
-    <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
-    <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
+
+    <h2>Pseudo Mercator</h2>
+    <h3>The projection of the Pseudomercator is desgined around a cylinder wrapping around the globe.
+        This cylindracl property allows for proportionate sizes around <br>the equator, while becoming larger the farther 
+    away one strays from the equator. </h3>
+    <a href="./maps/3857.png">
+        <img src="./maps/3857.png" alt="Mercator" width='500px'>
+    </a>
+
+    <h2>Sphere Winkel</h2>
+    <h3>The shape spherical liked shape of this projection allows for their to be as little distortion around the entire map. 
+        Therefore allowing for a realitvely clear<br> observation of all the land areas.
+    </h3>
+    <a href="./maps/53018.png">
+        <img src="./maps/53018.png" alt="Winkel" width='500px'>
+    </a>
+
+    <h2>Cylndrical Equal Area</h2>
+    <h3>This projection allows for the area in between the boxes created by the circles to be preserved.
+        As such allowing for a clear interpretation of the geography along <br>the equator, while distorting the shape
+        of the land further North or South.
+    </h3>
+    <a href="./maps/54034.png">
+        <img src="./maps/54034.png" alt="Equal Area" width='500px'>
+    </a>
+
+    <h2>Equidistant Conic</h2>
+    <h3>This projection resembles what would happen if a cone would be wrapped around the Earth.
+        As such it allows for a relatively<br> proportiante view of land masses streting around the North Pole
+        , while causing distortions the further south one moves
+    </h3>
+    <a href="./maps/54027.png">
+        <img src="./maps/54027.png" alt="Equidistant Conic" width='500px'>
+    </a>
+
+    <h2>Azimuthal Equidistant</h2>
+    <h3>This projection is extremly similar to the Equidsitant conic approach as it focuses one centeral point.
+        However, the main difference comes from having all points<br> be distanced around that central point, recreating a 
+        sort of symetry
+    </h3>
+    <a href="./maps/102016.png">
+        <img src="./maps/102016.png" alt="Azimuthal" width='500px'>
+    </a>
+
+    <h2>Sinusoidal Projection</h2>
+    <h3>This Sinousiodal projection is projected in such a way to maintain the area and proportion of Africa
+        to the greates extent. However this causes most other areas to<br> become extremly distorted. Especially the ones at 
+        southern and northern tip since this projection seems to pinch and stretch the top and bottom of the map.
+    </h3>
+    <a href="./maps/54008.png">
+        <img src="./maps/54008.png" alt="Sinusoidal" width='500px'>
+    </a>
+
+
+    <h2>Eckert-I Projection</h2>
+    <h3>This projection has an extremly intersting shape, as it is projected in a shape resembling a stretched out hexagon.
+        Causing distortion when moving towards the edges,<br> but it allows the conservation of area in both eastern Europe and Africa.
+    </h3>
+    <a href="./maps/54010.png">
+        <img src="./maps/54010.png" alt="Eckert" width='500px'>
+    </a>
     <p></p>
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
